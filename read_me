@@ -1,0 +1,27 @@
+yarn add express
+yarn add -D @types/express typescript ts-node-dev
+yarn add prisma -D
+yarn add dotenv
+yarn add axios
+yarn add @types/axios -D
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+yarn add socket.io
+yarn add @types/socket.io -D
+yarn add cors
+yarn add @types/cors -D
+rodar prisma: yarn prisma init
+
+Rodar aplicação: yarn dev
+
+Aula 1:
+-Criar projeto
+-Instalar express, prisma , typescript
+-Configurar Github OAuth
+-Criar rota login Github
+-Criar rota callback
+-Autentificação do usuário recebendo o código
+-Cadastro de mensagem
+-Configurar websocket
+-Retornar 3 últimas mensagens
+-Criar perfil do user
